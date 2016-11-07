@@ -8,5 +8,5 @@ council_id = 'E07000027'
 
 stations_scraper = GeoJsonScraper(stations_url, council_id, 'utf-8', 'stations')
 stations_scraper.scrape()
-districts_scraper = GeoJsonScraper(districts_url, council_id, 'utf-8', 'districts', store_raw_data=True)
+districts_scraper = GeoJsonScraper(districts_url, council_id, 'utf-8', 'districts')
 districts_scraper.scrape()
