@@ -1,8 +1,8 @@
 from dc_base_scrapers.geojson_scraper import GeoJsonScraper
 
 
-stations_url = "https://webgis1.barrowbc.gov.uk/inspire/wfs?service=WFS&version=1.3.0&request=GetFeature&typeNames=BBC%3APOLLINGSTATIONS&outputFormat=json&srsName=EPSG%3A4326&sortBy=POLLING_DISTRICT"
-districts_url = "https://webgis1.barrowbc.gov.uk/inspire/wfs?service=WFS&version=1.3.0&request=GetFeature&typeNames=BBC%3ACURRENTPOLLINGDISTRICTS&outputFormat=json&srsName=EPSG%3A4326&sortBy=INFO"
+stations_url = "https://webgis1.barrowbc.gov.uk/inspire/wfs?service=WFS&version=1.3.0&request=GetFeature&typeNames=INSPIRE%3APOLLINGSTATIONS&outputFormat=json&srsName=EPSG%3A4326&sortBy=POLLING_DISTRICT"
+districts_url = "https://webgis1.barrowbc.gov.uk/inspire/wfs?service=WFS&version=1.3.0&request=GetFeature&typeNames=INSPIRE%3ACURRENTPOLLINGDISTRICTS&outputFormat=json&srsName=EPSG%3A4326&sortBy=INFO"
 council_id = 'E07000027'
 
 
